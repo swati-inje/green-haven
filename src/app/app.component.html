@@ -21,7 +21,7 @@
           </button>
         </div>
         <hr />
-        <form action="" formGroupName="registrationForm">
+        <form action="" [formGroup]="registrationForm">
           <div class="mt-4 d-flex">
             <div class="mx-4">
               <label for="firstname" class="py-1">Name: </label>
@@ -55,7 +55,7 @@
               type="text"
               placeholder="Enter your email"
               id="email"
-              formControlName="lastName"
+              formControlName="email"
             />
           </div>
           <div class="mx-4 mt-3">
